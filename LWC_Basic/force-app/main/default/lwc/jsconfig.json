@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/unnamedSlot": [
+                "unnamedSlot/unnamedSlot.js"
+            ],
+            "c/parentCompToTestSlot": [
+                "parentCompToTestSlot/parentCompToTestSlot.js"
+            ]
+        }
     },
     "include": [
         "**/*",
