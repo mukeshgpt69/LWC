@@ -4,8 +4,15 @@
                 <p>This is parent component using child component.</p><br/>
                 
                 <c-unnamed-slot>
-                    <h3>calling from parent component</h3>
+                    calling from parent component
                 </c-unnamed-slot>
+
+                <h2>Calling named slot</h2>
+                <c-named-slot>
+                    <span slot="firstname">Mukesh</span>
+                    <span slot="lastname">Gupta</span>
+                    <span slot="email">mukesh.gupta@girikon.com</span>
+                </c-named-slot>
             </div>
         </lightning-card>
 </template>

@@ -1,0 +1,17 @@
+<template>
+    <p>________________________________________________________</p>
+    <p>This is named slot</p>
+    <lightning-layout multiple-rows="true">
+        <lightning-layout-item size="6" padding="around-small">
+            First Name:<br/>
+            Last Name:<br/>
+            Email:<br/>
+        </lightning-layout-item>
+        <lightning-layout-item size="6" padding="around-small">
+            <slot name="firstname"></slot><br/>
+            <slot name="lastname"></slot><br/>
+            <slot name="email"></slot><br/>
+        </lightning-layout-item>
+
+    </lightning-layout>    
+</template>

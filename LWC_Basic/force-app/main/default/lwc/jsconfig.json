@@ -3,11 +3,14 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/unnamedSlot": [
-                "unnamedSlot/unnamedSlot.js"
+            "c/namedSlot": [
+                "namedSlot/namedSlot.js"
             ],
             "c/parentCompToTestSlot": [
                 "parentCompToTestSlot/parentCompToTestSlot.js"
+            ],
+            "c/unnamedSlot": [
+                "unnamedSlot/unnamedSlot.js"
             ]
         }
     },
