@@ -12,5 +12,9 @@
             <c-public-property-cmp company-name="Salesforce Inc"></c-public-property-cmp>
             <c-public-property-cmp company-name="Informa"></c-public-property-cmp>
         </div>
+        <div slot="actions">
+            <lightning-button label="Update Company" onclick={updateCompanyName}></lightning-button>
+            My Company: {myCompany}
+        </div>
     </lightning-card>
 </template>
