@@ -23,6 +23,12 @@
             ],
             "c/useDataBindingCmp": [
                 "useDataBindingCmp/useDataBindingCmp.js"
+            ],
+            "c/setPropertiesOnChildCmp": [
+                "setPropertiesOnChildCmp/setPropertiesOnChildCmp.js"
+            ],
+            "c/companyChildCmp": [
+                "companyChildCmp/companyChildCmp.js"
             ]
         }
     },

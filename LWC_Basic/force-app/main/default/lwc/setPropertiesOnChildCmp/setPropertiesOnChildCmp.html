@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Set Properties on Child Components">
+        <div class="slds-p-horizontal_small">
+            <h2>Child Component called</h2>
+            <c-company-child-cmp company-name={companyName}></c-company-child-cmp>
+            <br/>
+
+            <h2>Parent Component</h2>
+            <p>companyName in parent component: {companyName}</p>
+            <p><lightning-button label="Update company name in parent component" onclick={updateCompanyName}></lightning-button></p>
+        </div>
+        <div slot="footer">
+            Due to one-way data binding, when the companyName property is updated in the parent component, 
+            the companyName property in the child component is also updated.
+        </div>
+    </lightning-card>
+</template>
