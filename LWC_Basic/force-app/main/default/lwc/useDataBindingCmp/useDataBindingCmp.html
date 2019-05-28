@@ -1,0 +1,15 @@
+<template>
+    
+    <lightning-card title="Data Binding">
+
+        <div class="slds-p-horizontal_small">            
+            <lightning-input name='firstName' label="First Name" onchange={handleChange}></lightning-input>
+            <lightning-input name='lastName' label="Last Name" onchange={handleChange}></lightning-input>
+            <p class="slds-m-top_medium">Uppercased Full Name: {upperCaseName}</p>
+        </div>
+
+        <div slot="footer">
+            Let’s talk about the @track decorator! Because they're decorated with @track, if the value of  firstName or lastName changes, the template rerenders. If we remove @track, the property values still change, but the component doesn’t rerender,
+        </div>
+    </lightning-card>
+</template>

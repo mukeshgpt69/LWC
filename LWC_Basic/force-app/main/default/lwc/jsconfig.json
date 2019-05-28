@@ -17,6 +17,12 @@
             ],
             "c/usePublicPropertyCmp": [
                 "usePublicPropertyCmp/usePublicPropertyCmp.js"
+            ],
+            "c/DataBindingCmp": [
+                "DataBindingCmp/DataBindingCmp.js"
+            ],
+            "c/useDataBindingCmp": [
+                "useDataBindingCmp/useDataBindingCmp.js"
             ]
         }
     },
