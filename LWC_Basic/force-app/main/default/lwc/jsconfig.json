@@ -11,6 +11,12 @@
             ],
             "c/unnamedSlot": [
                 "unnamedSlot/unnamedSlot.js"
+            ],
+            "c/publicPropertyCmp": [
+                "publicPropertyCmp/publicPropertyCmp.js"
+            ],
+            "c/usePublicPropertyCmp": [
+                "usePublicPropertyCmp/usePublicPropertyCmp.js"
             ]
         }
     },
