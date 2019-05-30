@@ -1,2 +1,2 @@
 # LWC
-Lightning Web Component Examples
+Lightning Web Components Examples
