@@ -3,32 +3,35 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/companyChildCmp": [
+                "companyChildCmp/companyChildCmp.js"
+            ],
             "c/namedSlot": [
                 "namedSlot/namedSlot.js"
             ],
             "c/parentCompToTestSlot": [
                 "parentCompToTestSlot/parentCompToTestSlot.js"
             ],
-            "c/unnamedSlot": [
-                "unnamedSlot/unnamedSlot.js"
-            ],
             "c/publicPropertyCmp": [
                 "publicPropertyCmp/publicPropertyCmp.js"
-            ],
-            "c/usePublicPropertyCmp": [
-                "usePublicPropertyCmp/usePublicPropertyCmp.js"
-            ],
-            "c/DataBindingCmp": [
-                "DataBindingCmp/DataBindingCmp.js"
-            ],
-            "c/useDataBindingCmp": [
-                "useDataBindingCmp/useDataBindingCmp.js"
             ],
             "c/setPropertiesOnChildCmp": [
                 "setPropertiesOnChildCmp/setPropertiesOnChildCmp.js"
             ],
-            "c/companyChildCmp": [
-                "companyChildCmp/companyChildCmp.js"
+            "c/unnamedSlot": [
+                "unnamedSlot/unnamedSlot.js"
+            ],
+            "c/useDataBindingCmp": [
+                "useDataBindingCmp/useDataBindingCmp.js"
+            ],
+            "c/usePublicPropertyCmp": [
+                "usePublicPropertyCmp/usePublicPropertyCmp.js"
+            ],
+            "c/customeEventChildCmp": [
+                "customeEventChildCmp/customeEventChildCmp.js"
+            ],
+            "c/fireEventDemo": [
+                "fireEventDemo/fireEventDemo.js"
             ]
         }
     },
