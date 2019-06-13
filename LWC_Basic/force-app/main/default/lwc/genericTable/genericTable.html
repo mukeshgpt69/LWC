@@ -1,8 +1,14 @@
 <template>
-    <lightning-card title="Generic Table">
+    <lightning-card title="Generic Table" icon-name="utility:table">
         <div class="slds-p-around_small">
             <template if:true={dataList}>
-                <table>
+                <lightning-datatable
+                    key-field="Id"
+                    data={dataList}
+                    columns={columns}
+                    is-loading={tableLoadingState}>
+                </lightning-datatable>
+                <!--<table>
                     <tr>
                         <th>Id</th>
                         <th>Name</th>
@@ -13,7 +19,7 @@
                             <td>{item.Name}</td>
                         </tr>
                     </template>
-                </table>
+                </table>-->
             </template>
             <template if:true={error}>
                 {error}
