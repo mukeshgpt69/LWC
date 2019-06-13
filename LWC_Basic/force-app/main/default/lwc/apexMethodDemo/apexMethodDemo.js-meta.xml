@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="ApexMethodDemo">
+    <apiVersion>45.0</apiVersion>
+    <isExposed>true</isExposed>
+    <description>Simple LWC Component to get contact list and find by name.</description>
+    <masterLabel>Contact List</masterLabel>
+
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__AppPage</target>
+    </targets>
+
+</LightningComponentBundle>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Contact List">
+
+        <div class="slds-p-horizontal_small">
+            <lightning-layout multiple-rows="true">               
+                <lightning-layout-item size="12">
+                    <template if:true={contacts}>
+                        <template for:each={contacts} for:item="item">
+                            <div key={item.id}>{item.Name}</div>
+                        </template>
+                    </template>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

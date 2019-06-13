@@ -3,8 +3,17 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/apexMethodDemo": [
+                "apexMethodDemo/apexMethodDemo.js"
+            ],
             "c/companyChildCmp": [
                 "companyChildCmp/companyChildCmp.js"
+            ],
+            "c/customeEventChildCmp": [
+                "customeEventChildCmp/customeEventChildCmp.js"
+            ],
+            "c/fireEventDemo": [
+                "fireEventDemo/fireEventDemo.js"
             ],
             "c/namedSlot": [
                 "namedSlot/namedSlot.js"
@@ -27,11 +36,8 @@
             "c/usePublicPropertyCmp": [
                 "usePublicPropertyCmp/usePublicPropertyCmp.js"
             ],
-            "c/customeEventChildCmp": [
-                "customeEventChildCmp/customeEventChildCmp.js"
-            ],
-            "c/fireEventDemo": [
-                "fireEventDemo/fireEventDemo.js"
+            "c/ApexMethodDemo": [
+                "ApexMethodDemo/ApexMethodDemo.js"
             ]
         }
     },
