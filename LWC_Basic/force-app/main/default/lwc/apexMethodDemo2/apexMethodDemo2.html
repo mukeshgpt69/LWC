@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Find Contacts By Name" icon-name="standard:contact">
+        <div class="slds-p-around_small">
+            <lightning-layout multiple-rows="true">
+                <lightning-layout-item size="12" padding="around-small">
+                    <lightning-input type="search" value={searchKey} onchange={findContacts} placeholder="Type person name"></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" padding="around-small">
+                    <template if:true={conatctList}>
+                        <template for:each={conatctList} for:item="item">
+                            <div key={item.Id}>{item.Name}</div>
+                        </template>
+                    </template>
+                    <template if:true={error}>
+                        {error}
+                    </template>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

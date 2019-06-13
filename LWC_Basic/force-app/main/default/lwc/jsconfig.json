@@ -36,8 +36,8 @@
             "c/usePublicPropertyCmp": [
                 "usePublicPropertyCmp/usePublicPropertyCmp.js"
             ],
-            "c/ApexMethodDemo": [
-                "ApexMethodDemo/ApexMethodDemo.js"
+            "c/apexMethodDemo2": [
+                "apexMethodDemo2/apexMethodDemo2.js"
             ]
         }
     },
