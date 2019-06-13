@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="genericTable">
+    <apiVersion>45.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Generic Table LWC</masterLabel>
+
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__AppPage</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__HomePage">
+            <property name="fields" type="String" default="Id,Name"/>
+            <property name="objectName" type="String" datasource="apex://MyDynamicPicklist" default="Account"/>
+        </targetConfig>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="fields" type="String" default="Id,Name"/>
+            <property name="objectName" type="String" datasource="apex://MyDynamicPicklist" default="Account"/>
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage">
+            <property name="fields" type="String" default="Id,Name"/>
+            <property name="objectName" type="String" datasource="apex://MyDynamicPicklist" default="Account"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

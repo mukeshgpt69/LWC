@@ -15,4 +15,9 @@ public with sharing class ContactController {
             return [Select Id,Name from Contact limit 10];
         }
     }
+
+    @AuraEnabled(cacheable=true)
+    public static List<sObject> getData(String fields,String objectName){
+        return Database.query('Select '+fields+' FROM '+objectName);
+    }
 }

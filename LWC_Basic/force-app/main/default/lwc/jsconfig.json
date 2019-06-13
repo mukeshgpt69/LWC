@@ -38,6 +38,9 @@
             ],
             "c/apexMethodDemo2": [
                 "apexMethodDemo2/apexMethodDemo2.js"
+            ],
+            "c/genericTable": [
+                "genericTable/genericTable.js"
             ]
         }
     },

@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Generic Table">
+        <div class="slds-p-around_small">
+            <template if:true={dataList}>
+                <table>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                    </tr>
+                    <template for:each={dataList} for:item="item">
+                        <tr key={item.Id}>
+                            <td>{item.Id}</td>
+                            <td>{item.Name}</td>
+                        </tr>
+                    </template>
+                </table>
+            </template>
+            <template if:true={error}>
+                {error}
+            </template>
+        </div>
+    </lightning-card>
+</template>
