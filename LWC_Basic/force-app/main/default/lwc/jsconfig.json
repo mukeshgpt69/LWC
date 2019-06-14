@@ -6,6 +6,9 @@
             "c/apexMethodDemo": [
                 "apexMethodDemo/apexMethodDemo.js"
             ],
+            "c/apexMethodDemo2": [
+                "apexMethodDemo2/apexMethodDemo2.js"
+            ],
             "c/companyChildCmp": [
                 "companyChildCmp/companyChildCmp.js"
             ],
@@ -14,6 +17,9 @@
             ],
             "c/fireEventDemo": [
                 "fireEventDemo/fireEventDemo.js"
+            ],
+            "c/genericTable": [
+                "genericTable/genericTable.js"
             ],
             "c/namedSlot": [
                 "namedSlot/namedSlot.js"
@@ -36,11 +42,11 @@
             "c/usePublicPropertyCmp": [
                 "usePublicPropertyCmp/usePublicPropertyCmp.js"
             ],
-            "c/apexMethodDemo2": [
-                "apexMethodDemo2/apexMethodDemo2.js"
+            "c/useCustomLabel": [
+                "useCustomLabel/useCustomLabel.js"
             ],
-            "c/genericTable": [
-                "genericTable/genericTable.js"
+            "c/useResourceUrl": [
+                "useResourceUrl/useResourceUrl.js"
             ]
         }
     },
