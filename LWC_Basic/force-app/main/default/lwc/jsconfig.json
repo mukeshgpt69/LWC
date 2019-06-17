@@ -36,17 +36,23 @@
             "c/unnamedSlot": [
                 "unnamedSlot/unnamedSlot.js"
             ],
+            "c/useCustomLabel": [
+                "useCustomLabel/useCustomLabel.js"
+            ],
             "c/useDataBindingCmp": [
                 "useDataBindingCmp/useDataBindingCmp.js"
             ],
             "c/usePublicPropertyCmp": [
                 "usePublicPropertyCmp/usePublicPropertyCmp.js"
             ],
-            "c/useCustomLabel": [
-                "useCustomLabel/useCustomLabel.js"
-            ],
             "c/useResourceUrl": [
                 "useResourceUrl/useResourceUrl.js"
+            ],
+            "c/girikonUtils": [
+                "girikonUtils/girikonUtils.js"
+            ],
+            "c/useShareCode": [
+                "useShareCode/useShareCode.js"
             ]
         }
     },

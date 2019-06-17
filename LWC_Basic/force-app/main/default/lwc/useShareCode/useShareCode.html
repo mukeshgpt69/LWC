@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Use Share Code">
+        <div class="slds-p-horizontal_small">
+            <lightning-layout multiple-rows="true">
+                <lightning-layout-item size="12" class="slds-p-top_small">
+                    <lightning-input type="number" label="Princepal" value={princepal} onchange={changePrincepal}></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" class="slds-p-top_small">
+                    <lightning-combobox options={years} label="Term" onchange={changeYears}></lightning-combobox>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" class="slds-p-top_small">
+                    <lightning-input type="number" label="Rate" value={rate} onchange={changeRate}></lightning-input>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="12" class="slds-p-top_small">
+                    <lightning-button label="Calculate" onclick={calculateInterest} variant="brand"></lightning-button>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" class="slds-p-top_small">                    
+                    <strong>Interest: {interest}</strong>
+                </lightning-layout-item>
+
+            </lightning-layout>
+        </div>
+
+    </lightning-card>
+</template>
