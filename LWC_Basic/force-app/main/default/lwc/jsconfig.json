@@ -53,6 +53,9 @@
             ],
             "c/useShareCode": [
                 "useShareCode/useShareCode.js"
+            ],
+            "c/useThirdPartyLib": [
+                "useThirdPartyLib/useThirdPartyLib.js"
             ]
         }
     },
