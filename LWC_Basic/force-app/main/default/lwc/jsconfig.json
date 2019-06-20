@@ -62,6 +62,12 @@
             ],
             "c/slotChangeDemo": [
                 "slotChangeDemo/slotChangeDemo.js"
+            ],
+            "c/publicMethod": [
+                "publicMethod/publicMethod.js"
+            ],
+            "c/publicMethodDemo": [
+                "publicMethodDemo/publicMethodDemo.js"
             ]
         }
     },

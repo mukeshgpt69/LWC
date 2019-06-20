@@ -1,0 +1,10 @@
+<template>    
+    <lightning-card title="Public Method Demo">
+        <div class="slds-p-horizontal_small">
+            <c-public-method video-url={myvideo} video-type="video/mp4"></c-public-method>
+        </div>
+        <div slot="footer">
+            <lightning-button label="Play" onclick={handlePlayer}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
