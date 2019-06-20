@@ -1,0 +1,19 @@
+<template>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td>:</td>
+            <td><slot name="firstname" onslotchange={handleSlotchange}>Mukesh</slot></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>:</td>
+            <td><slot name="lastname" onslotchange={handleSlotchange}>Gupta</slot></td>
+        </tr>
+        <tr>
+            <td>Email Address</td>
+            <td>:</td>
+            <td><slot name="email" onslotchange={handleSlotchange}>mukesh.gupta@girikon.com</slot></td>
+        </tr>
+    </table>
+</template>

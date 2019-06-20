@@ -21,6 +21,9 @@
             "c/genericTable": [
                 "genericTable/genericTable.js"
             ],
+            "c/girikonUtils": [
+                "girikonUtils/girikonUtils.js"
+            ],
             "c/namedSlot": [
                 "namedSlot/namedSlot.js"
             ],
@@ -48,14 +51,17 @@
             "c/useResourceUrl": [
                 "useResourceUrl/useResourceUrl.js"
             ],
-            "c/girikonUtils": [
-                "girikonUtils/girikonUtils.js"
-            ],
             "c/useShareCode": [
                 "useShareCode/useShareCode.js"
             ],
             "c/useThirdPartyLib": [
                 "useThirdPartyLib/useThirdPartyLib.js"
+            ],
+            "c/slotChangeEvent": [
+                "slotChangeEvent/slotChangeEvent.js"
+            ],
+            "c/slotChangeDemo": [
+                "slotChangeDemo/slotChangeDemo.js"
             ]
         }
     },
