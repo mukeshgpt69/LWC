@@ -12,7 +12,7 @@
 
     <targetConfigs>
         <targetConfig targets="lightning__HomePage">
-            <property name="fields" type="String" default="Id,Name"  label="Comma seperated fieldapi name"/>
+            <property name="fields" type="String" default="Id,Name"  label="Comma seperated fieldapi name"/>            
             <property name="objectName" type="String" datasource="apex://MyDynamicPicklist" default="Account" label="Select Object Name"/>
         </targetConfig>
         <targetConfig targets="lightning__RecordPage">

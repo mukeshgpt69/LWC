@@ -9,6 +9,9 @@
             "c/apexMethodDemo2": [
                 "apexMethodDemo2/apexMethodDemo2.js"
             ],
+            "c/apexMethodDemo3": [
+                "apexMethodDemo3/apexMethodDemo3.js"
+            ],
             "c/companyChildCmp": [
                 "companyChildCmp/companyChildCmp.js"
             ],
@@ -30,11 +33,23 @@
             "c/parentCompToTestSlot": [
                 "parentCompToTestSlot/parentCompToTestSlot.js"
             ],
+            "c/publicMethod": [
+                "publicMethod/publicMethod.js"
+            ],
+            "c/publicMethodDemo": [
+                "publicMethodDemo/publicMethodDemo.js"
+            ],
             "c/publicPropertyCmp": [
                 "publicPropertyCmp/publicPropertyCmp.js"
             ],
             "c/setPropertiesOnChildCmp": [
                 "setPropertiesOnChildCmp/setPropertiesOnChildCmp.js"
+            ],
+            "c/slotChangeDemo": [
+                "slotChangeDemo/slotChangeDemo.js"
+            ],
+            "c/slotChangeEvent": [
+                "slotChangeEvent/slotChangeEvent.js"
             ],
             "c/unnamedSlot": [
                 "unnamedSlot/unnamedSlot.js"
@@ -56,18 +71,6 @@
             ],
             "c/useThirdPartyLib": [
                 "useThirdPartyLib/useThirdPartyLib.js"
-            ],
-            "c/slotChangeEvent": [
-                "slotChangeEvent/slotChangeEvent.js"
-            ],
-            "c/slotChangeDemo": [
-                "slotChangeDemo/slotChangeDemo.js"
-            ],
-            "c/publicMethod": [
-                "publicMethod/publicMethod.js"
-            ],
-            "c/publicMethodDemo": [
-                "publicMethodDemo/publicMethodDemo.js"
             ]
         }
     },

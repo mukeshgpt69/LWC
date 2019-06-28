@@ -12,6 +12,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+force-app/main/default/lwc/apexMethodDemo3/
+force-app/main/default/classes/DemoCommonServerAction.*
+force-app/main/default/aura/
+
 # Dependency directories
 node_modules/
 
