@@ -1,11 +1,11 @@
 /**
  * Created By       :   Mukesh Gupta(Girikon)
- * Created On       :   05/01/2019
+ * Created On       :   06/28/2019
  * @description     :   This class provides following functionalities:          
  *                      Allow to fetch record based on dynamic object and field. This class used by "genericTable" LWC
  *                      
  * Helper Class     :   n/a
- * Test Class       :   CommonDataTableController_Test(0%)
+ * Test Class       :   n/a
  
  * Modification log --
  * Modified by      :  n/a
