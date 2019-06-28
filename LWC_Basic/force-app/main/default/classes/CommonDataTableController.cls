@@ -13,14 +13,22 @@
 public with sharing class CommonDataTableController{
     @AuraEnabled
     public LWCTableWraper LWCTabWrap;     
+
     @AuraEnabled
     public integer offst;    
+
     @AuraEnabled
     public integer total;    
+
     @AuraEnabled
-    public boolean hasprev;    
+    public boolean hasprev;
+
+    @AuraEnabled
+    public Integer pageSize;
+
     @AuraEnabled
     public boolean hasnext;    
+
     public static boolean hasprevious(integer off){ if(off>0){return false;}else{return true;}}
     public static boolean hasnxt(integer off,integer li,integer ps){
         if((off+ps)>2000){
@@ -40,9 +48,11 @@ public with sharing class CommonDataTableController{
     {   
         CommonDataTableController pg = new CommonDataTableController();
         Integer offset = (Integer)off;
-        Integer psize = (Integer)pagesize;        
+        Integer psize = (Integer)pagesize;
+        
         List<String> lstfieldstoget = fieldstoget.split(',');
 
+        pg.pageSize = psize;
         pg.total =  Database.countQuery('SELECT count() from '+String.escapeSingleQuotes(objectName));
         
         List<LWCTableColumnWrapper> lstTableColumn = new list<LWCTableColumnWrapper> ();        

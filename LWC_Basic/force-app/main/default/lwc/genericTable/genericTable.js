@@ -4,7 +4,7 @@ import { LightningElement,track,api,wire } from 'lwc';
 import getDatas from '@salesforce/apex/CommonDataTableController.getGenericObjectRecord'
 
 export default class GenericTable extends LightningElement {
-    @track wrap = {LWCTabWrap:{tableColumn:{}}};
+    @track wrap = {hasnext:false,pagesize:10,hasprev:false,offst:0,sortBy:'',LWCTabWrap:{tableColumn:{}}};
     @track sortByName;
     @track sortType='asc';    
     @track tableLoadingState = true;
@@ -32,10 +32,10 @@ export default class GenericTable extends LightningElement {
     @wire (getDatas,{
         ObjectName:'$objectName',
         fieldstoget:'$fields',
-        pagesize:10,
-        next:false,
-        prev:false,
-        off:0,
+        pagesize:this.wrap.pagesize,
+        next:this.wrap.hasnext,
+        prev:this.wrap.hasprev,
+        off:this.wrap.offst,
         sortBy:'$sortByName',
         sortType:'$sortType'
     })    
